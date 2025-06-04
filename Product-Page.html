@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Page | Alem Market</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="/img/market-stand-icon-1.png" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/img/market-stand-icon-1.png">
+  <meta name="description" content="Explore products at Alem Market. Find the best deals on electronics, clothing, and more.">
+  <meta name="keywords" content="Alem Market, electronics, clothing, accessories, books">
+  <link rel="stylesheet" href="/css/Product-Page.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="top-bar">
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white"><i class="fas fa-map-marker-alt"></i> Kazakhstan</button>
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white"><i class="fas fa-store"></i> Address</button>
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white" onclick="window.location.href='Contact-Page.html';"><i class="fas fa-headset"></i> Support: 5050 (9:00 to 22:00 daily)</button>
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white currency-btn">KZT</button>
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white">KZ | ENG | RUS</button>
+    </div>
+    <div class="main-header">
+      <div class="logo">
+        <h1><a href="Index.html" style="color: black; text-decoration: none;">Alem Market</a></h1>
+      </div>
+      <div class="search-bar">
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Find something..." aria-label="Search products">
+          <i class="fas fa-search search-icon"></i>
+        </div>
+      </div>
+      <div class="user-actions">
+        <a href="favorites.html"><i class="fas fa-heart"></i> Favorites</a>
+        <a href="Cart-Page.html"><i class="fas fa-shopping-cart"></i> Cart (<span class="cart-count">0</span>)</a>
+        <a href="Login.html"><i class="fas fa-user"></i> Login</a>
+      </div>
+    </div>
+    <div class="container px-4 py-3">
+      <div class="d-flex flex-wrap gap-3 flex-column flex-sm-row">
+        <button class="btn btn-primary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#promotions'"><a href="Index.html#promotions" style="color: white; text-decoration: none;">Promotions</a></button>
+        <button class="btn btn-secondary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#limited'"><a href="Index.html#limited" style="color: white; text-decoration: none;">Limited Time Offers</a></button>
+        <button class="btn btn-secondary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#products'"><a href="Index.html#products" style="color: white; text-decoration: none;">Best Deals of the Season</a></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Catalog Sidebar -->
+  <aside class="catalog-sidebar">
+    <h3>Categories</h3>
+    <ul id="category-list"></ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Product Hero -->
+    <section class="product-hero">
+      <div class="product-image-main">
+        <img id="mainImg" src="" alt="Product Image" loading="lazy">
+        <i class="fas fa-heart favorite-icon" id="favorite-icon"></i>
+      </div>
+      <div class="product-details">
+        <h1 id="product-name">Loading...</h1>
+        <p class="product-code" id="product-code">Order Code: Loading...</p>
+        <div class="rating">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+          </div>
+          <span>(4.2 • 128 reviews)</span>
+        </div>
+        <p class="price" id="product-price">Loading...</p>
+        <button class="add-to-cart" onclick="addToCart()" aria-label="Add to cart">Add to Cart</button>
+        <p class="description" id="product-description">Loading...</p>
+        <ul class="specs" id="product-specs">
+          <!-- Specs will be populated dynamically -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products">
+      <h2>Related Products</h2>
+      <div class="carousel">
+        <div class="carousel-inner" id="related-products"></div>
+        <button class="carousel-control prev" onclick="scrollCarousel('related-products', -300)" aria-label="Previous products"><i class="fas fa-chevron-left"></i></button>
+        <button class="carousel-control next" onclick="scrollCarousel('related-products', 300)" aria-label="Next products"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="product-grid-section">
+      <h2>All Products</h2>
+      <div class="product-grid" id="product-grid"></div>
+      <div id="loading" class="loading hidden">
+        <i class="fas fa-spinner"></i>
+      </div>
+    </section>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="cart-toast" class="toast align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body"></div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" class="back-to-top hidden" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <div class="footer-column">
+        <h4>Products</h4>
+        <a href="Product-Page.html">Product Details</a>
+        <a href="search-results.html">Search Results</a>
+      </div>
+      <div class="footer-column">
+        <h4>Cart</h4>
+        <a href="payment-confirmation.html">Payment Confirmation</a>
+        <a href="promo-code.html">Promo Code Application</a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <a href="Contact-Page.html">Contact Form</a>
+        <a href="faq.html">Frequently Asked Questions</a>
+      </div>
+      <div class="footer-column">
+        <h4>User Page</h4>
+        <a href="login.html">Login/Register</a>
+        <a href="UserPage.html">User Dashboard</a>
+        <a href="order-history.html">Order History</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Alem Market. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/currency.js"></script>
+  <script src="js/Product-Page.js"></script>
+</body>
+</html>

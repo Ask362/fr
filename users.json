@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Olzhas Kolzhabay",
+    "email": "olzhas@gmail.com",
+    "password": "123456",
+    "phone": "+7 (777) 123-12-34",
+    "address": "Astana, st. Qabanbay Batyr, 123",
+    "status": "Premium",
+    "role": "user"
+  },
+  {
+    "id": 2,
+    "name": "Aibek Zhumabayev",
+    "email": "aibek@gmail.com",
+    "password": "pass456",
+    "phone": "+7 (777) 987-65-43",
+    "address": "Astana, st. Seyfullina, 45",
+    "status": "Standard",
+    "role": "user"
+  },
+  {
+    "id": 3,
+    "name": "Ivan Ivanovich",
+    "email": "ivanovich333@gmail.com",
+    "password": "ivan1234",
+    "phone": "+7 (777) 234-53-43",
+    "address": "Astana,str. Bokeykhana, 44",
+    "status": "Standard",
+    "role": "user"
+  },
+  {
+    "id": 4,
+    "name": "Askar Abilkhayev",
+    "email": "askar667@gmail.com",
+    "password": "ask222",
+    "phone": "+7 (777) 333-65-22",
+    "address": "Shymkent, str. Abay, 23",
+    "status": "Standard",
+    "role": "user"
+  },
+  {
+    "id": 5,
+    "name": "Dake Dakenovich",
+    "email": "Dias@gmail.com",
+    "password": "dias229",
+    "phone": "+7 (777) 982-69-41",
+    "address": "Almaty, st. Abay, 39",
+    "status": "Standard",
+    "role": "user"
+  },
+  {
+    "id": 0,
+    "name": "Admin User",
+    "email": "admin@gmail.com",
+    "password": "admin123",
+    "phone": "+7 (777) 000-00-00",
+    "address": "Алматы, ул. Админа, 1",
+    "status": "Admin",
+    "role": "admin"
+  },
+  {
+    "id": 6,
+    "name": "Arman Alikhanov",
+    "email": "Alikhanov@gmail.com",
+    "password": "ali1234",
+    "phone": "+7 (777) 333-22-11",
+    "address": "Almaty, str. Shoqan, 4",
+    "status": "Seller",
+    "role": "seller"
+  }
+]

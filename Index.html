@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alem Market</title>
+    <link rel="stylesheet" href="css/Home-Page.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <button class="btn btn-outline-secondary btn-sm mx-1 text-white"><i class="fas fa-map-marker-alt"></i> Kazakhstan</button>
+            <button class="btn btn-outline-secondary btn-sm mx-1 text-white"><i class="fas fa-store"></i> Address</button>
+            <button class="btn btn-outline-secondary btn-sm mx-1 text-white" onclick="window.location.href='Contact-Page.html';"><i class="fas fa-headset"></i> Support: 5050 (9:00 to 22:00 daily)</button>
+            <button class="btn btn-outline-secondary btn-sm mx-1 text-white currency-btn">KZT</button>
+            <button class="btn btn-outline-secondary btn-sm mx-1 text-white">KZ | ENG | RUS</button>
+        </div>
+        <div class="main-header">
+            <div class="logo">
+                <h1>Alem Market</h1>
+                <button id="catalog-toggle" class="catalog-toggle-btn">Catalog</button>
+            </div>
+            <div class="search-bar">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Find something..." aria-label="Search products">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+            </div>
+            <div class="user-actions">
+                <a href="favorites.html"><i class="fas fa-heart"></i> Favorites</a>
+                <a href="Cart-Page.html"><i class="fas fa-shopping-cart"></i> Cart (<span class="cart-count">0</span>)</a>
+                <a href="Login.html"><i class="fas fa-user"></i> Login</a>
+            </div>
+        </div>
+        <div class="container px-4 py-3">
+          <div class="d-flex flex-wrap gap-3 flex-column flex-sm-row">
+            <button class="btn btn-primary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#promotions'"><a href="Index.html#promotions" style="color: white; text-decoration: none;">Promotions</a></button>
+            <button class="btn btn-secondary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#limited'"><a href="Index.html#limited" style="color: white; text-decoration: none;">Limited Time Offers</a></button>
+            <button class="btn btn-secondary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#products'"><a href="Index.html#products" style="color: white; text-decoration: none;">Best Deals of the Season</a></button>
+          </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Catalog Sidebar -->
+        <aside class="catalog-sidebar">
+            <h3>Categories</h3>
+            <ul id="category-list"></ul>
+        </aside>
+        <!-- Main Sections -->
+        <div class="content-wrapper">
+            <!-- Banner -->
+            <section id="promotions" class="banner">
+                <div class="banner-content">
+                    <h2>SmartPhone</h2>
+                    <h1>IPHONE 16 PRO MAX</h1>
+                    <p>From <span id="banner-price">699,990 ₸</span></p>
+                    <button>Go to Promotions</button>
+                </div>
+                <div class="image-grid">
+                    <img src="https://gagadget.com/media/post_big/iphone-16-event-14.15.272x_1.webp" alt="iPhone 16 Pro Max" loading="lazy">
+                    <img src="https://avatars.mds.yandex.net/i?id=95ea67f6a50aeb934d81e6f1e22df23fbcd91c9f-10672158-images-thumbs&n=13" alt="iPhone 16 Pro Max side view" loading="lazy">
+                    <img src="https://www.apple.com/v/iphone-16-pro/a/images/overview/product-viewer/iphone-pro/natural_titanium__22ovjg0i0huy_xlarge.jpg" alt="iPhone 16 Pro Max natural titanium" loading="lazy">
+                    <img src="https://gagadget.com/media/post_big/iphone-16-event-14.15.272x_1.webp" alt="iPhone 16 Pro Max back view" loading="lazy">
+                </div>
+            </section>
+            <!-- Featured Product -->
+            <section id="limited" class="featured-product">
+                <div class="timer">
+                    <h3 class="color-name">Deal of the Day</h3>
+                    <div id="countdown">
+                        <span id="hours">01</span>:<span id="minutes">44</span>:<span id="seconds">03</span>
+                    </div>
+                    <div class="discount">
+                        <span>0-24%</span>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <img src="img/2302853_1000.jpg" alt="МАРКЕТИНГ 5.0" loading="lazy">
+                    <img src="https://s.f.kz/prod/830/829422_1000.jpg" alt="Жесткий СММ" loading="lazy">
+                    <img src="https://s.f.kz/prod/786/785194_1000.jpg" alt="Путь к успеху" loading="lazy">
+                    <h4 class="color-name">A set of books on marketing</h4>
+                    <p class="price"><span id="deal-price">17,325 ₸</span> <span class="old-price" id="deal-old-price">25,618 ₸</span></p>
+                    <button>Add to Cart</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Products Showcase -->
+    <div id="products" class="product-grid-section">
+        <h1 class="my-4 text-center">Product showcase</h1>
+        <div class="product-grid" id="product-list"></div>
+        <div id="loading" class="loading hidden">
+            <i class="fas fa-spinner fa-spin"></i> Loading...
+        </div>
+        <div id="error-message" class="text-center my-4" style="display: none; color: red;">
+            <p>Failed to load products. Please try again later.</p>
+        </div>
+        <div id="no-more-products" class="text-center my-4" style="display: none; color: #666;">
+            <p>All products loaded.</p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <h5 class="mb-3"><i class="fas fa-box-open me-2"></i>Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Categories</a></li>
+                        <li><a href="Product-Page.html" class="footer-link">Product Detail</a></li>
+                        <li><a href="search-results.html" class="footer-link">Search Results</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <h5 class="mb-3"><i class="fas fa-shopping-cart me-2"></i>Shopping Cart</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="payment-confirmation.html" class="footer-link">Payment Confirmation</a></li>
+                        <li><a href="promo-code.html" class="footer-link">Promo Code Application</a></li>
+                        <li><a href="checkout.html" class="footer-link">Checkout Page</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <h5 class="mb-3"><i class="fas fa-envelope me-2"></i>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Contact-Page.html" class="footer-link">Contact Form</a></li>
+                        <li><a href="faq.html" class="footer-link">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <h5 class="mb-3"><i class="fas fa-user-circle me-2"></i>User Page</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="login.html" class="footer-link">Login/Register</a></li>
+                        <li><a href="UserPage.html" class="footer-link">User Dashboard</a></li>
+                        <li><a href="order-history.html" class="footer-link">Order History</a></li>
+                        <li><a href="UserPage.html" class="footer-link">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center small text-muted">
+                <p class="mb-0">© 2025 <strong>Alem Market</strong>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src = "jquery-script.js"></script>
+    <script src="js/currency.js"></script>
+    <script src="js/Home-Page.js"></script>
+</body>
+</html>

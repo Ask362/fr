@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 350000,
+    "description": "Laptop for study and work, 15,6 RAM 12GB SSD 512 GB",
+    "image": "img/laptop.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 2,
+    "name": "AirPods Pro Wireless Headphones",
+    "price": 120000,
+    "description": "Active noise canceling headphones",
+    "image": "img/AirPods Pro Wireless Headphones.webp",
+    "category": "Accessories"
+  },
+  {
+    "id": 3,
+    "name": "GPS M8 projection speedometer GPS M8 speedometer for car",
+    "price": 25000,
+    "description": "Wind      Windshield projector",
+    "image": "img/GPS M8 projection speedometer GPS M8 speedometer for car.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 4,
+    "name": "Athletic pants",
+    "price": 10000,
+    "description": "wide without fleece, joggers 02",
+    "image": "img/Athletic pants.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 5,
+    "name": "UPS UTC650EI 650VA/360W",
+    "price": 30000,
+    "description": "Provides home and office users with reliable backup power for personal computers",
+    "image": "img/UPS UTC650EI 650VA 360W.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 6,
+    "name": "silver - 8GB",
+    "price": 250000,
+    "description": "A powerful smartphone with a touch pen for creativity",
+    "image": "img/silver - 8GB.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 7,
+    "name": "5G Wi-Fi mini router with fast connection",
+    "price": 35000,
+    "description": "These devices allow you to connect to the Internet wherever cellular service is available, making them indispensable for travelers and professionals working away from the office",
+    "image": "img/5G Wi-Fi mini router with fast connection.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 8,
+    "name": "Portable USB Modem 4G WiFi Router",
+    "price": 15000,
+    "description": "It provides a stable connection and high data transfer rate",
+    "image": "img/Portable USB Modem 4G WiFi Router.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 9,
+    "name": "To die at first sight",
+    "price": 5000,
+    "description": "To find out that the person you have fallen in love with is not who they say they are, and on top of that, to lose all your savings and end up on the street? Victims of the empire of cunning scammers, operating on dating sites, know this firsthand.",
+    "image": "img/To die at first sight.webp(1).webp",
+    "category": "Books"
+  },
+  {
+    "id": 10,
+    "name": "Glass house",
+    "price": 6000,
+    "description": "international bestseller. Three women. Past and present. The secret that will change everything.",
+    "image": "img/Glass house.webp",
+    "category": "Books"
+  },
+  {
+    "id": 11,
+    "name": "Long sleeve school shirt for boys",
+    "price": 8000,
+    "description": "These are beautiful and fashionable clothes for school that will provide comfort for every day",
+    "image": "img/Long sleeve school shirt for boys.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 12,
+    "name": "her summer militaria cap",
+    "price": 7000,
+    "description": "It has even stitching and a machined underside, ensuring no threads sticking out and maximum wearing comfort",
+    "image": "img/her summer militaria cap.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 13,
+    "name": "Cotton polo shirt",
+    "price": 12000,
+    "description": "It's not just clothing, it's a way to express your individuality. A polo shirt allows you to emphasize your uniqueness",
+    "image": "img/Cotton polo shirt.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 14,
+    "name": "Classic cotton short sleeve polo shirt",
+    "price": 10000,
+    "description": "Made from waffle cotton, it provides softness and breathability, making it perfect for the summer season",
+    "image": "img/Classic cotton short sleeve polo shirt.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 15,
+    "name": "Electric scooter M4 Pro 13 Ah with alarm system",
+    "price": 150000,
+    "description": "it is a powerful and stylish electric scooter with a seat for adults and teenagers, ideal for comfortable rides around the city",
+    "image": "img/Electric scooter M4 Pro 13 Ah with alarm system.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 16,
+    "name": "Oversize hoodie with print",
+    "price": 15000,
+    "description": "The basic hooded sweatshirt is perfect for creating stylish and comfortable looks. The model features a kangaroo pocket, which adds practicality in use, allowing you to carry small things or keep your hands warm in cooler weather",
+    "image": "img/Oversize hoodie with print.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 17,
+    "name": "Monochrome polo shirt",
+    "price": 12000,
+    "description": "is a solid-colored, short-sleeve summer T-shirt. Made of cotton and viscose, it provides lightweight and comfortable wear.",
+    "image": "img/Monochrome polo shirt(1).webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 18,
+    "name": "Oversize warm hooded hoodie with fleece lining",
+    "price": 20000,
+    "description": "a product of excellent quality, designed for comfort in any season. The elongated fit, wide sleeves and comfortable shoulder create a silhouette that is ideal for active people who appreciate freedom of movement.",
+    "image": "img/Oversize warm hooded hoodie with fleece lining.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 19,
+    "name": "Hooded sweatshirt with fleece lining",
+    "price": 18000,
+    "description": "the perfect combination of a large pocket, hood and warm material. It's designed to keep you warm on cold winter days, providing the ultimate in winter clothing comfort",
+    "image": "img/Hooded sweatshirt with fleece lining.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 20,
+    "name": "Electric Kettle",
+    "price": 10000,
+    "description": "your reliable assistant in preparing flavored tea. Made of aluminum and glass, this kettle is not only stylish but also durable.",
+    "image": "img/Electric Kettle.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 21,
+    "name": "4-in-1 battery-operated electric wine corkscrew",
+    "price": 8000,
+    "description": "an indispensable assistant for all wine lovers. Easy to use, it will easily open any wine bottle in just a few seconds, allowing you to enjoy your favorite beverage without unnecessary effort.",
+    "image": "img/4-in-1 battery-operated electric wine corkscrew.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 22,
+    "name": "Electric balloon pump",
+    "price": 12000,
+    "description": "The electric balloon pump is designed to inflate a large number of balloons. It comes with two built-in nozzles for standard latex balloons and two interchangeable nozzles for smaller balloons",
+    "image": "img/Electric balloon pump.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 23,
+    "name": "Electric impact perforator",
+    "price": 40000,
+    "description": "is a powerful tool for a variety of construction and repair work. Thanks to the cord length of 200 cm, it provides great maneuverability when working.",
+    "image": "img/Electric impact perforator.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 24,
+    "name": "Electric perforator Kalibr EP-800 Case",
+    "price": 45000,
+    "description": "Drilling, impact drilling, chiseling. With the reverse function, the tool can be removed from the material when jammed.",
+    "image": "img/Electric perforator Kalibr EP-800 Case.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 25,
+    "name": "Come out of the closet. Olga Ptitseva",
+    "price": 5000,
+    "description": "Mikhail Teterin had a difficult childhood. His mother - a failed actress, cruel and hysterical - then dressed Misha up in dresses, then wanted to make a real man out of him. To relive this experience, he decides to write a novel",
+    "image": "img/Come out of the closet. Olga Ptitseva.webp",
+    "category": "Books"
+  },
+  {
+    "id": 26,
+    "name": "Breathe. Woorie",
+    "price": 4000,
+    "description": "In her new book, Woorie, the author of the coziest comic «Cappuccino with Marshmallows», invites readers to reflect on the meanings of the word «home»; how to cope with bullying; why, when we talk about love, we primarily mean romantic",
+    "image": "img/Breathe. Woorie.webp",
+    "category": "Books"
+  },
+  {
+    "id": 27,
+    "name": "Vintage flounce dress",
+    "price": 15000,
+    "description": "Vintage dress made of natural fabric with a beautiful creche cotton flounce. Midi length, comfortable deep pockets in the seams.",
+    "image": "img/Vintage flounce dress.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 28,
+    "name": "Transformer Electronic Electrolux ECH/TUE4 Transformer Electronic Control Unit",
+    "price": 20000,
+    "description": "The Transformer Electronic intelligent control unit with full-color display stores users' personal temperature settings in memory.",
+    "image": "img/Transformer Electronic Electrolux ECH TUE4 Transformer Electronic Control Unit.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 29,
+    "name": "Classic banana pants with arrows",
+    "price": 12000,
+    "description": "Combine with everyday practicality. Men's pants are made in black color, designed with every need in mind. The black men's pants have a slim fit and are made from lightweight materials, making a great option for school uniforms or everyday wear.",
+    "image": "img/Classic banana pants with arrows.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 30,
+    "name": "Such a funny love",
+    "price": 5000,
+    "description": "A sparkling story about going all the way to the end to achieve your dreams",
+    "image": "img/Such a funny love.webp",
+    "category": "Books"
+  },
+  {
+    "id": 31,
+    "name": "Convector with electronic unit 2.5 kW, Wi-Fi and chassis",
+    "price": 50000,
+    "description": "The Ballu Transformer electric convector with control unit BEC/EVU-2500-4E with chassis (electronic) is an innovative solution for space heating. The heater comes with a smart control unit, which allows you to control and customize the heater using your smartphone.",
+    "image": "img/Convector with electronic unit 2.5 kW, Wi-Fi and chassis.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 32,
+    "name": "Graphic tablet T503",
+    "price": 15000,
+    "description": "is a useful drawing and creative tool ideal for the designer, illustrator, architect, as well as for creating comics and other visual projects",
+    "image": "img/Graphic tablet T503.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 33,
+    "name": "Son of a regiment",
+    "price": 5000,
+    "description": "Valentin Petrovich Kataev, Russian writer and playwright, went through the Great Patriotic War and knew firsthand about the grief it brought to our country, depriving thousands of children of their childhood.",
+    "image": "img/Son of a regiment.webp",
+    "category": "Books"
+  },
+  {
+    "id": 34,
+    "name": "About Mira and Gosha. Learning to be friends and resolve conflicts",
+    "price": 4000,
+    "description": "Useful stories for children based on the popular cartoon series \"About Mira and Gosha. Just about important things\". The collection contains 3 colorfully illustrated stories that will help preschoolers and elementary schoolchildren understand their feelings and develop emotional intelligence, learn to be friends and build trusting relationships in the family",
+    "image": "img/About Mira and Gosha. Learning to be friends and resolve conflicts.webp",
+    "category": "Books"
+  },
+  {
+    "id": 36,
+    "name": "electronic kitchen scale",
+    "price": 8000,
+    "description": "is an indispensable assistant in every kitchen! Electronic tabletop kitchen scales with all the necessary functions to make cooking easier.",
+    "image": "img/electronic kitchen scale.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 37,
+    "name": "Art of Spain",
+    "price": 6000,
+    "description": "It is ardor, passion, playing with death, life on the edge, flamenco and bullfighting, love and death, red and black. Spanish art is full of vivid images and colors and in many ways reflects the history and mentality of the country.",
+    "image": "img/Art of Spain.webp",
+    "category": "Books"
+  },
+  {
+    "id": 38,
+    "name": "Vintage linen sundress",
+    "price": 20000,
+    "description": "Tiered maxi length sundress with convenient in-seam pockets and natural coconut buttons on the placket.",
+    "image": "img/Vintage linen sundress.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 39,
+    "name": "An extra in his game. Alyona Filipenko",
+    "price": 5000,
+    "description": "",
+    "image": "img/An extra in his game. Alyona Filipenko.webp",
+    "category": "Books"
+  },
+  {
+    "id": 40,
+    "name": "Portrait of a Spy",
+    "price": 5000,
+    "description": "Europe is exploding. And one man must find out why. For Gabriel Allon and his wife Chiara, it was supposed to be the start of a romantic weekend in London. But nothing is ever that simple when you're an off-duty spy and assassin. Bombings in Paris and Copenhagen have put him on edge and when Gabriel notices a man exhibiting several traits common to suicide bombers, he follows him into the Covent Garden throng.",
+    "image": "img/Portrait of a Spy.webp",
+    "category": "Books"
+  },
+  {
+    "id": 41,
+    "name": "Dishwasher 45 cm / 10 sets / 6 programs",
+    "price": 150000,
+    "description": "At just 45cm wide, this compact helper will fit perfectly into any kitchen interior, saving precious space",
+    "image": "https://alm-basket-cdn-01.geobasket.ru/vol3475/part347580/347580375/images/c516x688/1.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 42,
+    "name": "Gym T-shirt",
+    "price": 6000,
+    "description": "Fashionable men's sleeveless sports jersey is an ideal choice for people who lead an active lifestyle. Lightweight and comfortable men's summer jersey, suitable for strength training in the gym, for running, as a basketball or soccer jersey for sports games.",
+    "image": "img/Gym T-shirt.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 43,
+    "name": "Wine cabinet ZTWF182DX stainless steel",
+    "price": 250000,
+    "description": "The ZÜGEL Thermoelectric Wine Cabinet with its advanced temperature control technology creates the ideal conditions for storing wine. This modern and stylish model will fit comfortably and harmoniously into any room",
+    "image": "img/Wine cabinet ZTWF182DX stainless steel.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 44,
+    "name": "Wine cabinet JC-33C",
+    "price": 100000,
+    "description": "Wine refrigerator GASTRORAG JC-33C with one temperature zone is designed to store wine at a temperature of +12...+18C. The refrigerator can hold up to 12 bottles of wine with a volume of 0.75 liters.",
+    "image": "img/Wine cabinet JC-33C.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 45,
+    "name": "teddy bomber teen insulated bomber",
+    "price": 15000,
+    "description": "the perfect choice for cooler weather. The model is made of soft and cozy teddy material that will provide warmth and comfort all day long.",
+    "image": "img/teddy bomber teen insulated bomber.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 46,
+    "name": "Buildings for Books: Contemporary Library Architecture",
+    "price": 7000,
+    "description": "This volume shows the diversity of this building task with its interplay of state-of-the-art technology and cultural demands",
+    "image": "img/This volume shows the diversity of this building task with its interplay of state-of-the-art technology and cultural demands.webp",
+    "category": "Books"
+  },
+  {
+    "id": 47,
+    "name": "Golitsynsky. Great Britain. Great Britain. Country studies",
+    "price": 4000,
+    "description": "The UK Country Study Guide allows you to familiarize yourself with life in this country and at the same time significantly improve your English language skills. In the book you will find information about history, geography, political structure, major cities, landmarks, famous Britons, flora and fauna, etc. presented in an accessible language.",
+    "image": "img/Golitsynsky. Great Britain. Great Britain. Country studies.webp",
+    "category": "Books"
+  },
+  {
+    "id": 48,
+    "name": "Home cotton joggaers tricot pants",
+    "price": 10000,
+    "description": "Pants by Belarusian brand Svitanak will become a basic item of closet and will find a wide application in everyday life. They are incredibly comfortable and practical, give full comfort and do not restrain movements.",
+    "image": "img/Home cotton joggaers tricot pants.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 49,
+    "name": "T-shirt OVER size white monochrome cotton",
+    "price": 6000,
+    "description": "Oversize white T-shirt from the UZcotton brand is a stylish garment that is perfect for men and women, and a versatile base for your closet. The cut with dropped shoulders and elongated short sleeves provides maximum comfort.",
+    "image": "img/T-shirt OVER size white monochrome cotton.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 50,
+    "name": "Apple iPhone 13 256GB Smartphone, White Refurbished",
+    "price": 300000,
+    "description": "Apple iPhone 13 is a combination of advanced technology and elegant design that will impress lovers of quality electronics. This powerful and stylish Apple smartphone offers all the features you need for a comfortable user experience.",
+    "image": "img/Apple iPhone 13 256GB Smartphone, White Refurbished.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 51,
+    "name": "Samsung Galaxy A55 5G 8/256Gb Dark Blue Smartphone",
+    "price": 200000,
+    "description": "Samsung Galaxy A55 has a large screen diagonal of 6.6 inches with a resolution of 2340x1080 pixels, which is comfortable to play games, watch movies and videos, communicate in social networks, solve work tasks. AMOLED technology provides high brightness and contrast, even in bright sunlight the picture will be distinguishable. The 120Hz refresh rate ensures smooth display of any dynamic content",
+    "image": "img/Samsung Galaxy A55 5G 8 256Gb Dark Blue Smartphone.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 52,
+    "name": "Galaxy A16 Smartphone (8+256GB) Black, Black",
+    "price": 150000,
+    "description": "6.7-inch display. Immerse yourself in your favorite content with stunning picture quality and vivid colors on the FHD+ Super AMOLED display. The large 6.7-inch screen with minimal bezels brings every moment to life.",
+    "image": "img/Galaxy A16 Smartphone (8+256GB) Black, Black.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 53,
+    "name": "Java. Solution of practical problems / Leonard Angel",
+    "price": 10000,
+    "description": "The super-fast evolution of the JDK between versions 8 and 12 has increased the learning curve of modern Java, therefore has increased the time needed for placing developers in the Plateau of Productivity. Its new features and concepts can be adopted to solve a variety of modern-day problems. This book enables you to adopt an objective approach to common problems by explaining the correct practices and decisions with respect to complexity, performance, readability, and more",
+    "image": "img/Java. Solution of practical problems  Leonard Angel.webp",
+    "category": "Books"
+  },
+  {
+    "id": 54,
+    "name": "CSS3 for Web Designers / Dan Siderholm",
+    "price": 10000,
+    "description": "From advanced selectors to generated content to the triumphant return of web fonts, and from gradients, shadows, and rounded corners to full-blown animations, CSS3 is a universe of creative possibilities. No one can better guide you through these galaxies than world-renowned designer, author, and CSS superstar Dan Cederholm. Learn what works, how it works, and how to work around browsers where it doesn’t work.",
+    "image": "img/CSS3 for Web Designers Dan Siderholm.webp",
+    "category": "Books"
+  },
+  {
+    "id": 55,
+    "name": "Apple iPhone 11 128GB Smartphone, White Refurbished",
+    "price": 200000,
+    "description": "Brand new iPhone 11 dual camera system with ultra wide angle camera. Night mode and amazing video quality. Any interaction with water is prohibited! All day without recharging",
+    "image": "img/Apple iPhone 11 128GB Smartphone, White Refurbished.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 56,
+    "name": "Cotton fitted T-shirt",
+    "price": 8000,
+    "description": "The fitted men's T-shirt is made of a dense cotton fabric - Penier. This cotton is the highest quality and most expensive - the best possible for manufacturing. The fabric consists of pure cotton fibers, lycra is also added to it to make the fabric more elastic.",
+    "image": "img/Cotton fitted T-shirt.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 57,
+    "name": "Basic T-shirt with print",
+    "price": 6000,
+    "description": "Next to the photo is a size chart with actual t-shirt length and width measurements tied to standardized sizes.",
+    "image": "img/Basic T-shirt with print.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 58,
+    "name": "Samsung Galaxy S10 8/128 GB, 2 SIM, Green",
+    "price": 150000,
+    "description": "the perfect balance between premium design and innovative technology. It is a smartphone that will not only emphasize your personality, but also allow you to enjoy every minute of use.",
+    "image": "img/Samsung Galaxy S10 8 128 GB, 2 SIM, Green.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 59,
+    "name": "Java in examples. Practice, practice and only practice",
+    "price": 12000,
+    "description": "is a smartphone that targets users who value multimedia features such as quality cameras and advanced features for music listening and entertainment. It combines a good price to performance ratio, making it a great choice for users who don't need flagship features but still want to enjoy good photos and videos",
+    "image": "img/Java in examples. Practice, practice and only practice.webp",
+    "category": "Books"
+  },
+  {
+    "id": 60,
+    "name": "CSS3 Handbook. Short, fast, at your fingertips",
+    "price": 8000,
+    "description": "This guide contains complete information about CSS3 in a convenient and visual form. The structure of the guide allows you to quickly and conveniently find the necessary information, get examples of using certain CSS3 properties and selectors.",
+    "image": "img/CSS3 Handbook. Short, fast, at your fingertips.webp",
+    "category": "Books"
+  },
+  {
+    "id": 61,
+    "name": "Hello, JavaScript! My first programming book",
+    "price": 8000,
+    "description": "An ideal choice for those who want to start programming from scratch by choosing athe versatile and popular JavaScript language",
+    "image": "img/Hello, JavaScript! My first programming book.webp",
+    "category": "Books"
+  },
+  {
+    "id": 62,
+    "name": "A5 Pro 8/256GB Smartphone, Olive",
+    "price": 100000,
+    "description": "A rugged smartphone that is IP69 water and dust resistant, with enhanced shock resistance and a powerful 5800 mAh battery.",
+    "image": "img/A5 Pro 8 256GB Smartphone, Olive.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 63,
+    "name": "Gaming PC i5 4460, GTX 1060 (6GB), RAM 16GB",
+    "price": 250000,
+    "description": "PC set (personal computer): computer system unit, power cord",
+    "image": "img/Gaming PC i5 4460, GTX 1060 (6GB), RAM 16GB.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 65,
+    "name": "For the Love of Cake",
+    "price": 6000,
+    "description": "Maya Vaughn, the hottest young pastry chef to emerge from the reality television machine, enjoys spending time with men and women alike. When she takes a turn as a judge on the very show that launched her career, she expects to find a nice change of scenery and a little [link] late-bloomer at forty-two years old, Shannon Hayes is finally on the precipice of achieving her dreams. She has one shot to prove she can compete with chefs half her age with much more experience. Engaging in a fling with a judge fourteen years her junior would almost certainly kill that chance.",
+    "image": "img/For the Love of Cake.webp",
+    "category": "Books"
+  },
+  {
+    "id": 66,
+    "name": "Smart watch 9 series PRO",
+    "price": 150000,
+    "description": "The wristwatch features an ultra-fast sensor and the new RTL8762DK processor. You'll enjoy smooth animations on the larger 2.13-inch (466x466) AMOLED display, and receive app notifications right on your wrist",
+    "image": "img/Smart watch 9 series PRO.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 67,
+    "name": "Popular books on natural science.",
+    "price": 5000,
+    "description": "This book is a reprint of the original edition, created from a high-resolution electronic copy that has been cleaned and processed by hand, preserving the structure and spelling of the original edition. Rare, forgotten and little-known books published from Peter the Great's time to the present day are once again available as printed books.",
+    "image": "img/Popular books on natural science..webp",
+    "category": "Books"
+  },
+  {
+    "id": 68,
+    "name": "Zip hoodie with zipper.",
+    "price": 18000,
+    "description": "The Zip Overzip Hoodie from Miller Clothing is the perfect choice for those who appreciate comfort and style. This hoodie is made of high quality materials that provide warmth and comfort in any weather. The oversized fit makes it versatile and suitable for different clothing styles. The presence of a zipper on the front adds an element of practicality and ease of opening and closing",
+    "image": "img/Zip hoodie with zipper.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 69,
+    "name": "Smart watch",
+    "price": 100000,
+    "description": "Smart wrist smart watches casual women's - premium analog of famous brands, including the original Xiaomi and Apple copy",
+    "image": "img/Smart watch smart watch smart watch.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 70,
+    "name": "Meme print t-shirt",
+    "price": 7000,
+    "description": "Black T-shirt with a print inspired by famous brands, straight cut, made of natural cotton with round neckline and short sleeves. Moderate oversize that will suit both men and women, as well as teenagers. Basic T-shirt with print is a trend and classic in men's and women's clothing",
+    "image": "img/Meme print t-shirt.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 71,
+    "name": "WS-40PET activator type washing machine",
+    "price": 60000,
+    "description": "Представляем вам стиральную машинку Славда WS-40PET, которая станет надежным помощником в стирке ваших вещей, особенно на даче. This compact washing machine has a small height and light weight, which makes it easy to move it into the apartment for the winter season. С помощью этой стиральной машины с вертикальной загрузкой вы сможете экономить пространство, не жертвуя качеством стирки",
+    "image": "img/WS-40PET activator type washing machine.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 72,
+    "name": "Books for New Testament Study",
+    "price": 3000,
+    "description": "A reprint of the original edition, based on a high-resolution electronic copy that has been cleaned and processed by hand, preserving the structure and spelling of the original edition. Rare, forgotten and little-known books published from Peter the Great's time to the present day are once again available as printed books.",
+    "image": "img/Books for New Testament Study.webp",
+    "category": "Books"
+  },
+  {
+    "id": 73,
+    "name": "Cambridge Preparation for the TOEFL Test, Fourth Ed",
+    "price": 15000,
+    "description": "This edition is designed to help students prepare for the TOEFL iBT test administered online. Cambridge Preparation for the TOEFL test, Fourth Edition helps students master the language skills they need to succeed on the TOEFL iBT and communicate effectively in an academic environment. Using a comprehensive approach to skills that reflects the TOEFL iBT framework, this completely revised text is ideal for classroom use and independent study.",
+    "image": "img/Cambridge Preparation for the TOEFL Test, Fourth Ed.webp",
+    "category": "Books"
+  },
+  {
+    "id": 74,
+    "name": "A5 Pro 8/256GB Smartphone, Olive",
+    "price": 100000,
+    "description": "Natural Beauty. A calm olive hue adds sophistication to the design with an organic texture made from vegan leather",
+    "image": "img/A5 Pro 8 256GB Smartphone, Olive(1).webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 75,
+    "name": "Bomber teenage insulated drape",
+    "price": 15000,
+    "description": "is a stylish and practical choice for cooler weather. The model is made of quality drape, which provides comfort and protection from the wind.",
+    "image": "img/Bomber teenage insulated drape.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 76,
+    "name": "Bomber teenage insulated drape",
+    "price": 15000,
+    "description": "Bomber is the perfect choice for warm fall and spring! It is not only warm and cozy, but also stylish and youthful. Thanks to its oversize cut, it is suitable for both girls and boys.",
+    "image": "img/Bomber teenage insulated drape(2).webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 77,
+    "name": "Quansheng UV-5R Plus 3800mAh Radio",
+    "price": 15000,
+    "description": "is a new portable radio with an increased battery capacity of 3800 mAh. This model is a reliable and high-quality device for communication. It supports two frequency bands: 136-174 MHz and 400-470 MHz. However, a special feature is that it can also receive an extended band from 50 MHz to 600 MHz (has gaps!), which includes aviation and river frequencies, making this device versatile and easy to use.",
+    "image": "img/Quansheng UV-5R Plus 3800mAh Radio.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 78,
+    "name": "Battery for Baofeng UV-82 3800 mAh Type-C radio",
+    "price": 10000,
+    "description": "Battery for radio Vaofeng UV-82, Vaofeng UV-82NX with Ture-C connector. Model VL-8, Voltage 7.4 V, Capacity 3800 mAh, Ture-C connector. Every product, even the most reliable, can fail at the most inopportune moment. A spare battery is guaranteed to work no worse than the one that came with it. This model of battery is designed for portable two-way radios Baofeng UV-82.",
+    "image": "img/Battery for Baofeng UV-82 3800 mAh Type-C radio.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 79,
+    "name": "Catalogue of the very choice collection of books",
+    "price": 6000,
+    "description": "A reprint of the original edition, based on a high-resolution electronic copy that has been cleaned and processed by hand, preserving the structure and spelling of the original edition. Rare, forgotten and little-known books published from Peter the Great's time to the present day are once again available as printed books.",
+    "image": "img/Catalogue of the very choice collection of books.webp",
+    "category": "Books"
+  },
+  {
+    "id": 80,
+    "name": "Drone quadcopter with camera E88 PRO",
+    "price": 50000,
+    "description": "is a small budget flying quadrocopter that can fly outdoors and indoors, while capturing high-definition video of everything that happens. Despite its small size, it has four powerful propellers that help it fly and maneuver stably even in windy conditions. It can: take off, land, move forward, backward, turn left, turn right and turn 360°.",
+    "image": "img/Drone quadcopter with camera E88 PRO.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 81,
+    "name": "Oversize raincoat for spring",
+    "price": 20000,
+    "description": "A hit of the season 2022 and a fashionable gift for March 8. Women's spring raincoat is a must have element of upper demi-seasonal clothing in your everyday closet",
+    "image": "img/Oversize raincoat for spring.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 82,
+    "name": "Portable hydrogen water generator",
+    "price": 15000,
+    "description": "Effective water purification and activation: Thanks to electrolysis technology, you get water with a high hydrogen content, which helps to reduce cholesterol and improve metabolism",
+    "image": "img/Portable hydrogen water generator.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 83,
+    "name": "Mystery Books for Kids",
+    "price": 4000,
+    "description": "A Collection of 3 Mystery Mini Stories for Children\". Join Donnie and Jose as they embark on three fun, mystery-filled adventures with their friends! -Mystery of the Broken Windows -Case of the Missing Art Supplies -The Mysterious Lights",
+    "image": "img/Mystery Books for Kids.webp",
+    "category": "Books"
+  },
+  {
+    "id": 84,
+    "name": "Mains powered desk clock electronic decor",
+    "price": 15000,
+    "description": "Desktop electronic clock with temperature measurement will become a necessary and important thing in your home. Distinctive features and a wide range of functionality: loud alarm clock that will not let you oversleep for work or remind you of an important event; thermometer that will tell you the temperature in the room; hygrometer will show the humidity in the room; bright dial, which can be used as a night light; 24-hour format, large Arabic numerals; silent operation",
+    "image": "img/Mains powered desk clock electronic decor.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 85,
+    "name": "Children's microscope with a ready set of microdrugs",
+    "price": 25000,
+    "description": "It is a true friend in exploring the world around us. It will familiarize children with the art of observation and open new horizons. The school helper fits perfectly into the learning process. Useful lessons will become interesting thanks to this digital educational toy.",
+    "image": "img/Children's microscope with a ready set of microdrugs.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 86,
+    "name": "Metal detector MD 4030",
+    "price": 40000,
+    "description": "one of the best options in its segment! Metal detector is an indispensable thing for lovers of active and exciting recreation. Even a child can understand the MD4030, which is high quality and easy to use",
+    "image": "img/Metal detector MD 4030.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 87,
+    "name": "Hoodie",
+    "price": 15000,
+    "description": "is a classic and popular garment that has become indispensable for oversized teens. This men's oversize hoodie with Crimean Tatar flag print is a combination of style and patriotism, perfect for the closet.\nOne of the main features of this hoodie is the fleece, which provides extra protection from the cold and wind. This makes it a great choice for chilly fall and winter days when it's important to stay warm and comfortable",
+    "image": "img/Hoodie.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 88,
+    "name": "Le Guin. The Word for World is Forest",
+    "price": 7000,
+    "description": "Long before Avatar, Ursula K. Le Guin was writing science fiction with a strong ecological edge, the benchmark of which was the 1973 novella, \"The Word for World is Forest.\" Now, with the continuing trend toward human rights and green issues, the time is right for new fans to be moved by this Hugo-winning classic.",
+    "image": "img/Le Guin. The Word for World is Forest.webp",
+    "category": "Books"
+  },
+  {
+    "id": 89,
+    "name": "ROLTON loudspeaker, belt megaphone",
+    "price": 20000,
+    "description": "belt megaphone with headset is suitable for tour guides, guides, street advertising, when organizing large gatherings of people. The belt speaker is connected to the microphone, and then it can be used for its intended purpose to increase the volume of speech. With the help of the wheel on the housing you can set the appropriate volume of sound",
+    "image": "img/ROLTON loudspeaker, belt megaphone.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 90,
+    "name": "Books for village libraries;",
+    "price": 6000,
+    "description": "This book is a reprint of the original edition (London, Simpkin, Marshall, Hamilton, Kent & Co., Limited, 1895), based on a high-resolution electronic copy that has been cleaned and processed by hand, preserving the structure and spelling of the original edition. Rare, forgotten and little-known books published from Peter the Great's time to the present day are once again available as printed books.",
+    "image": "img/Books for village libraries;.webp",
+    "category": "Books"
+  },
+  {
+    "id": 91,
+    "name": "XREAL Air 2 Pro Glasses and Beam Bundle",
+    "price": 200000,
+    "description": "transforms any video content into an incredible spatial display on XREAL Air 2 Pro AR glasses. Built on XREAL's patented spatial computing technology, Beam can fix a 330-inch screen in mid-air, providing a natural viewing experience akin to a giant TV in the real world. Join 100,000+ fans worldwide and participate in our vibrant community of XREAL users!",
+    "image": "img/XREAL Air 2 Pro Glasses and Beam Bundle.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 92,
+    "name": "Solar-powered street lamp",
+    "price": 30000,
+    "description": "A set of solar-powered street lamps with white glow are a beneficial decoration of a summer cottage plot due to their unique design, which gives comfort and coziness to the atmosphere of the garden or yard.\n\nGarden lights made of durable plastic have high performance indicators, which is explained by its increased resistance to mechanical damage and protection from environmental factors.",
+    "image": "img/Solar-powered street lamp.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 93,
+    "name": "Green Numerals Projector Clock",
+    "price": 8000,
+    "description": "High contrast LED screen provides an easy-to-read time display, even in low light conditions.",
+    "image": "img/Green Numerals Projector Clock.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 94,
+    "name": "Смартфон Samsung Galaxy A15 8/256 GB Yellow",
+    "price": 120000,
+    "description": "is a unique product that combines quality, power and stylish design. It features a 6.5-inch AMOLED screen that delivers bright and clear images, making watching videos and playing games even more fun.",
+    "image": "img/Смартфон Samsung Galaxy A15 8 256 GB Yellow.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 95,
+    "name": "Harley-Davidson Jumper Sweatshirt",
+    "price": 15000,
+    "description": "is a great choice for everyday wear. You can buy it right now and complete your closet with a stylish and colorful piece of clothing. The sweatshirt is made in a classic style and is perfect for creating an image. The embroidery on this hoodie is of high quality and looks beautiful and spectacular",
+    "image": "img/Harley-Davidson Jumper Sweatshirt.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 96,
+    "name": "Pedro T-shirt",
+    "price": 7000,
+    "description": "We have prepared for you white and black t-shirts with prints on the motif of the meme pedro. T-shirt meme raccoon made of 100% cotton, will be a bright addition to your closet. Raccoon from the meme Pedro-pedro, can serve for everyday wear, as home wear or for sports. Qualitatively made funny t-shirt with the meme dancing raccoon Pedro breathes, does not restrain movement and sits wonderfully on any figure due to the loose cut. Such a T-shirt with dancing raccoon pedro-pedro is a perfect gift for the new year.",
+    "image": "img/Pedro T-shirt.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 97,
+    "name": "Alice speaker stand holder for Alice speaker",
+    "price": 5000,
+    "description": "Fits for Yandex speaker mini2 Yndx-00021 in all colors (you can compare the number on the bottom of your speaker). We present you the holder for smart speaker Yandex mini 2 from RED LINE brand, which will be the perfect solution for your interior and will help you organize the space in your smart home with Aliska! This stylish and functional accessory provides a secure hold for your speaker, hiding the wires and power adapter, giving your space a neat and organized look.",
+    "image": "img/Alice speaker stand holder for Alice speaker.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 98,
+    "name": "A Place for Us /",
+    "price": 7000,
+    "description": "An Indian-Muslim family is preparing for their eldest daughter's wedding. But as Hadia's marriage - one chosen of love, not tradition - gathers the family back together, there is only one thing on their minds: can Amar, the estranged younger brother of the bride, be trusted to behave himself after three years away?\n",
+    "image": "img/A Place for Us.webp",
+    "category": "Books"
+  },
+  {
+    "id": 99,
+    "name": "Write for Life: A Toolkit for Writers from the author of",
+    "price": 7000,
+    "description": "Write for Life: A Toolkit for Writers from the author of",
+    "image": "img/Write for Life A Toolkit for Writers from the author of.webp",
+    "category": "Books"
+  },
+  {
+    "id": 100,
+    "name": "Civil Defense T-shirt",
+    "price": 8000,
+    "description": "If you are a true fan of rock and punk music, this T-shirt with the logo of the band Civil Defense is just for you! A high-quality rock T-shirt made of 100% cotton, it breathes, does not restrict movement and fits perfectly on any figure due to its loose fit. The print is made using the most modern printing technology, so it does not lose its brightness and clarity after repeated washes.",
+    "image": "img/Civil Defense T-shirt.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 101,
+    "name": "Ryan Gosling T-shirt",
+    "price": 7000,
+    "description": "We have prepared for you white and black T-shirts with prints based on the motif of \"Gosling Squads\". Ryan Gosling T-shirt made of 100% cotton, will be a striking addition to the wardrobe. The Ryan Gosling meme can be used for everyday wear, as home wear, or for sports. A well-made T-shirt breathes, does not restrict movement and fits perfectly on any figure due to the loose fit. This T-shirt is the perfect gift for the new year. The print is made using the most modern printing technology, so it does not lose its brightness and clarity after repeated washes.",
+    "image": "img/Ryan Gosling T-shirt.png",
+    "category": "Clothing"
+  },
+  {
+    "id": 102,
+    "name": "Books for Libraries",
+    "price": 10000,
+    "description": "This book is a reprint of the original edition, created on the basis of a high-resolution electronic copy, which was cleaned and processed manually, preserving the structure and spelling of the original edition. Rare, forgotten and little-known books published from the time of Peter the Great to the present day are now available as printed books.",
+    "image": "img/Books for Libraries.webp",
+    "category": "Books"
+  },
+  {
+    "id": 103,
+    "name": "Bomber jacket teen insulated drape",
+    "price": 15000,
+    "description": "It is a stylish and practical choice for cool weather. The model is made of high-quality drape, which will provide comfort and warmth even on a windy day. The insulated lining will keep you warm, and the loose fit does not restrict movement. The bomber jacket is equipped with convenient pockets for storing small items, and its concise design can easily be combined with any wardrobe.",
+    "image": "img/Bomber jacket teen insulated drape.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 104,
+    "name": "African Music for Schools",
+    "price": 6000,
+    "description": "This songbook for children brings together East African songs from vast and diverse folk heritages. It includes children's play, dance and story songs, and some patriotic and party songs, from the ethnic or language groups of Kenya, Uganda and Tanzania, as well as some songs from related ethnic groups in regions of Burundi, the DRC, Malawi and Rwanda",
+    "image": "img/African Music for Schools.webp",
+    "category": "Books"
+  },
+  {
+    "id": 105,
+    "name": "Ultrasonic bath, sterilizer for instruments CD-4830",
+    "price": 20000,
+    "description": "An effective and versatile device for cleaning and disinfecting objects for various purposes. Suitable for jewelry, medical and manicure instruments, optics, automotive parts, etc. The tank volume is 3000 ml (the maximum safe level is 2500 ml). The tank is made of stainless steel, the body is made of durable ABS plastic. The device's power reaches 150 watts, and the ultrasound frequency is 35 kHz.",
+    "image": "img/Ultrasonic bath, sterilizer for instruments CD-4830.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 106,
+    "name": "Electronic Desktop Clock Decor for Home Interior",
+    "price": 10000,
+    "description": "The perfect little birthday gift on March 8th, whether it's mom, grandma, or a teenager. They are perfect for home decor and will add grace to your room. Start by updating the space, add interior digital products for the bedroom and living room",
+    "image": "img/Electronic Desktop Clock Decor for Home Interior.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 107,
+    "name": "Signal Generator",
+    "price": 15000,
+    "description": "Dear customer! We present various assembly kits, from the simplest to the more complex with SMD radio components. From a flashlight, a doorbell, a night light to an oscilloscope. By ordering a set you like, you will get an indelible impression of the soldering and assembly process, and you will feel like an experienced amateur radio operator.",
+    "image": "img/Signal Generator.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 108,
+    "name": "Air 2 Pro + Beam (6G + 128G)",
+    "price": 300000,
+    "description": "Incredible image: Each Air 2 Pro, equipped with custom-made SONY Micro-OLED panels, 46°FOV and a huge 120 Hz ultra-clear display, is carefully calibrated to ensure color accuracy - the first to receive the TÜV Rheinland certificate for color accuracy.",
+    "image": "img/Air 2 Pro + Beam (6G + 128G).webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 109,
+    "name": "ACME VRB01RC Virtual Reality Glasses",
+    "price": 200000,
+    "description": "Take your reality to the next level by wearing ACME VRB01 Virtual reality glasses. Discover and explore the mysterious world that has been reborn on your smartphone screen thanks to 3D and 360° video recordings.",
+    "image": "img/ACME VRB01RC Virtual Reality Glasses.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 110,
+    "name": "Immerse yourself in the world of virtual reality",
+    "price": 50000,
+    "description": "Discover new horizons with 3D glasses that will allow you to immerse yourself in exciting virtual worlds. These glasses are designed to make your experience as realistic as possible by providing a visual and acoustic effect that will transport you to another reality. Compatible with smartphones with a screen diagonal of up to 6.5 inches, they are ideal for use with your favorite mobile device.",
+    "image": "img/Immerse yourself in the world of virtual reality.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 111,
+    "name": "NFC sticker tag 5 pieces",
+    "price": 3000,
+    "description": "The set includes 5 NFC stickers (or NFC stickers). The NFC tag has an increased memory capacity of up to 540 bytes. The configuration is done using the NFC Tools application. NFC tags work with NFC-enabled smartphones.",
+    "image": "img/NFC sticker tag 5 pieces.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 112,
+    "name": "Smart business card on an NFC card, the Basic tariff",
+    "price": 5000,
+    "description": "A luxurious and expensive gift for any holiday and occasion! The smart NFC card is presented in a gift-wrapped envelope! Tie it with a ribbon and the gift is ready!",
+    "image": "img/Smart business card on an NFC card, the Basic tariff.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 113,
+    "name": "Smart Ring: style and technology for life",
+    "price": 50000,
+    "description": "Our tested pick for the best smart ring overall is the Oura Ring 4, thanks to its lightweight fit, quick charging abilities, and impressive health suite.",
+    "image": "img/Smart Ring style and technology for life.wbep",
+    "category": "Electronic"
+  },
+  {
+    "id": 114,
+    "name": "Alice speaker stand holder for Alice speaker",
+    "price": 5000,
+    "description": "Fits for Yandex speaker mini2 Yndx-00021 in all colors (you can compare the number on the bottom of your speaker). We present you the holder for smart speaker Yandex mini 2 from RED LINE brand, which will be the perfect solution for your interior and will help you organize the space in your smart home with Aliska! This stylish and functional accessory provides a secure hold for your speaker, hiding the wires and power adapter, giving your space a neat and organized look.",
+    "image": "img/Alice speaker stand holder for Alice speaker(1).jpeg",
+    "category": "Electronic"
+  },
+  {
+    "id": 115,
+    "name": "Dishwasher 45 cm / 10 sets / 6 programs",
+    "price": 150000,
+    "description": "At just 45cm wide, this compact helper will fit perfectly into any kitchen interior, saving precious space",
+    "image": "img/Dishwasher 45 cm 10 sets 6 programs.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 116,
+    "name": "Oversize warm hooded hoodie with fleece lining",
+    "price": 20000,
+    "description": "a product of excellent quality, designed for comfort in any season. The elongated fit, wide sleeves and comfortable shoulder create a silhouette that is ideal for active people who appreciate freedom of movement.",
+    "image": "img/Oversize warm hooded hoodie with fleece lining(1).jpeg",
+    "category": "Clothing"
+  },
+  {
+    "id": 117,
+    "name": "Long sleeve school shirt for boys",
+    "price": 8000,
+    "description": "These are beautiful and fashionable clothes for school that will provide comfort for every day",
+    "image": "img/Long sleeve school shirt for boys(1).jpeg",
+    "category": "Clothing"
+  },
+  {
+    "id": 118,
+    "name": "AirPods Pro Wireless Headphones",
+    "price": 120000,
+    "description": "Active noise canceling headphones",
+    "image": "https://alm-basket-cdn-03.geobasket.ru/vol1925/part192542/192542069/images/c516x688/1.webp",
+    "category": "Accessories"
+  },
+  {
+    "id": 119,
+    "name": "15.6 Inch Laptop with Office 365, 4GB RAM, 128GB Storage Expandable 1TB, 5205U Processor, HD Display, Windows 11 Laptops Computer, Wi-Fi 5, BT4.2, Numpad, Type-C, for Business and Students",
+    "price": 200000,
+    "description": "Portable Lightweight Design: Weighing just 3.6 lbs, the Laptop S7HI is portable, making it perfect for travel, work, and school. Its slim profile and 15-inch HD IPS display offer a great balance of size and portability for everyday use",
+    "image": "https://alm-basket-cdn-03.geobasket.ru/vol3060/part306031/306031061/images/c516x688/1.webp",
+    "category": "laptops"
+  },
+  {
+    "id": 120,
+    "name": "jumper Laptop 16 Inch, 16GB RAM 512GB SSD, FHD 1920x1200 Display(16:10), Laptop Computer with Quad Core N CPU, 38WH Battery, Cooling System, Numeric Keyboard, 4 Speakers, Business Student Laptops",
+    "price": 300000,
+    "description": "Reliable Performance: The laptop is equipped with 12th Generation Intel Alder Lake-N100 processor with 4 cores, 4 threads and up to 3.4GHz of RWI, which makes multi-tasking easy with multi-tabbed browsing, online editing, and online meetings",
+    "image": "https://alm-basket-cdn-01.geobasket.ru/vol2109/part210936/210936066/images/c516x688/1.webp",
+    "category": "laptops"
+  },
+  {
+    "id": 121,
+    "name": "The smart ring is black",
+    "price": 50000,
+    "description": "The R12 smart ring combines modern technology and elegant design, allowing you to monitor your health and activity at any time.",
+    "image": "img/The smart ring is black.webp",
+    "category": "Accessories"
+  },
+  {
+    "id": 122,
+    "name": "Compressor Car Wireless Air Pump",
+    "price": 15000,
+    "description": "Get to know our new wireless car compressor — the perfect accessory for your car, bike, motorcycle or even boat! This powerful pump will become an indispensable assistant on the road, providing fast and convenient inflating of tires, sports equipment, air mattresses and toys.",
+    "image": "img/Compressor Car Wireless Air Pump.webp",
+    "category": "Accessories"
+  },
+  {
+    "id": 123,
+    "name": "Car Vacuum Cleaner Wireless Powerful",
+    "price": 15000,
+    "description": "A hand-held wireless battery-powered vacuum cleaner will be an excellent helper in car care, at home or in the countryside. This car accessory is suitable for cleaning carpets, interior and furniture, as well as for cleaning cat or dog hair. Its compact design and light weight make it convenient for a woman, man or teenager to use. The mini gadget effectively cleans hard-to-reach places, allowing you to keep your hands in order even without connecting to a cigarette lighter.",
+    "image": "img/Car Vacuum Cleaner Wireless Powerful.webp",
+    "category": "Accessories"
+  },
+  {
+    "id": 124,
+    "name": "Monochrome polo shirt",
+    "price": 12000,
+    "description": "is a solid-colored, short-sleeve summer T-shirt. Made of cotton and viscose, it provides lightweight and comfortable wear.",
+    "image": "img/Monochrome polo shirt(2).webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 125,
+    "name": "Long sleeve school shirt for boys",
+    "price": 8000,
+    "description": "These are beautiful and fashionable clothes for school that will provide comfort for every day",
+    "image": "img/Long sleeve school shirt for boyss.webp",
+    "category": "Clothing"
+  },
+  {
+    "id": 126,
+    "name": "Electric perforator Kalibr EP-800 Case",
+    "price": 45000,
+    "description": "Drilling, impact drilling, chiseling. With the reverse function, the tool can be removed from the material when jammed.",
+    "image": "img/Electric perforator Kalibr EP-800 Cases.webp",
+    "category": "Electronic"
+  },
+  {
+    "id": 127,
+    "name": "Vintage flounce dress",
+    "price": 15000,
+    "description": "Vintage dress made of natural fabric with a beautiful creche cotton flounce. Midi length, comfortable deep pockets in the seams.",
+    "image": "img/Vintage flounce dresses.webp",
+    "category": "Clothing"
+  }
+]

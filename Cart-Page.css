@@ -1,0 +1,126 @@
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.cart-item-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.summary-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.checkout-btn:hover {
+  background-color: #0056b3;
+}
+
+.toast-container {
+  z-index: 1050;
+}
+
+.cart-item .product-info {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 170px;
+}
+
+.cart-item .remove-item {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.cart-item .remove-item:hover {
+  background-color: #c82333;
+}
+
+.quantity-input {
+  width: 80px;
+}
+
+.product-card.cart-item {
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Override Home-Page.css product-grid with higher specificity */
+main .product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for address and payment inputs */
+.address-input,
+.payment-input {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.address-input:focus,
+.payment-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+#credit-card-details {
+  transition: opacity 0.3s ease;
+}
+
+#credit-card-details.hidden {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  main .product-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+}
+
+@media (max-width: 576px) {
+  main .product-grid {
+    grid-template-columns: 1fr; /* 1 column for small screens */
+  }
+
+  .summary-card {
+    padding: 1rem;
+  }
+
+  .checkout-btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,254 @@
+/* Modern Section Styling */
+.main-content {
+  padding: 2.5rem;
+  background: #f8f9fa;
+  min-height: calc(100vh - 200px);
+}
+.section {
+  margin-bottom: 2.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+.section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #212529;
+  background: linear-gradient(90deg, #000, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+  position: relative;
+
+}
+.section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: #000;
+  border-radius: 2px;
+}
+
+    /* Dashboard Overview */
+.dashboard-overview .overview-card {
+  border: none;
+  border-radius: 12px;
+  background: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+.dashboard-overview .overview-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.dashboard-overview .overview-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #000, #000);
+}
+.dashboard-overview .overview-card h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.dashboard-overview .overview-card p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #212529;
+  margin: 0;
+}
+
+    /* Controls */
+.controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.controls .form-floating {
+  position: relative;
+  min-width: 200px;
+
+}
+.controls input.form-control,
+.controls select.form-select {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 0.75rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.controls input.form-control:focus,
+.controls select.form-select:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.controls button.btn {
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.controls button.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+}
+
+    /* Product and Order Cards */
+.product-list .product-card,
+.order-list .order-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.product-list .product-card:hover,
+.order-list .order-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.product-card .card,
+.order-card .card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+
+}
+.product-card .card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #e9ecef;
+}
+.product-card .card-body,
+.order-card .card-body {
+  padding: 1.5rem;
+}
+
+.product-card .card-title,
+.order-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 0.75rem;
+}
+.product-card .card-text,
+.order-card .card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+.product-card .actions button,
+.order-card .actions button {
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+    /* Modal */
+.modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  animation: scaleIn 0.3s ease;
+}
+.modal-header {
+  border-bottom: none;
+  padding: 1.5rem 2rem;
+}
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #212529;
+}
+.modal-body {
+  padding: 1.5rem 2rem;
+}
+.modal-body .form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.modal-body .form-control,
+.modal-body .form-select {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 0.75rem;
+}
+.modal-body .form-control:focus,
+.modal-body .form-select:focus {
+  border-color: #000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+
+}
+.modal-body .btn-primary {
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-weight: 500;
+
+}
+
+    /* Toast */
+.toast-container .toast {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 300px;
+}
+.toast-container .toast .toast-body {
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.toast-container .toast .toast-body::before {
+  content: '\f058';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #28a745;
+}
+.toast-container .toast.bg-danger .toast-body::before {
+  content: '\f06a';
+  color: #dc3545;
+}
+
+    /* Animations */
+@keyframes scaleIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+    /* Responsive Adjustments */
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1.5rem;
+  }
+  .section {
+    padding: 1.5rem;
+  }
+  .dashboard-overview .overview-card p {
+    font-size: 1.5rem;
+  }
+  .product-card .card-img-top {
+    height: 150px;
+  }
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .controls .form-floating {
+    min-width: 100%;
+  }
+}
+

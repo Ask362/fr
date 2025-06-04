@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seller Dashboard | Alem Market</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="/img/market-stand-icon-1.png" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/img/market-stand-icon-1.png">
+  <meta name="description" content="Manage your products and orders on Alem Market. Create, edit, and track sales as a seller.">
+  <meta name="keywords" content="Alem Market, seller dashboard, product management, order tracking">
+  <link rel="stylesheet" href="/css/Product-Page.css" />
+  <link rel="stylesheet" href="/css/Seller-Page.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="top-bar">
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white"><i class="fas fa-map-marker-alt"></i> Kazakhstan</button>
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white"><i class="fas fa-store"></i> Address</button>
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white" onclick="window.location.href='Contact-Page.html';"><i class="fas fa-headset"></i> Support: 5050 (9:00 to 22:00 daily)</button>
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white">KZT</button>
+      <button class="btn btn-outline-secondary btn-sm mx-1 text-white">KZ | ENG | RUS</button>
+    </div>
+    <div class="main-header">
+      <div class="logo">
+        <h1><a href="Index.html" style="color: black; text-decoration: none;">Alem Market</a></h1>
+      </div>
+      <div class="search-bar">
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Find something..." aria-label="Search products">
+          <i class="fas fa-search search-icon"></i>
+        </div>
+      </div>
+      <div class="user-actions">
+        <a href="favorites.html"><i class="fas fa-heart"></i> Favorites</a>
+        <a href="Cart-Page.html"><i class="fas fa-shopping-cart"></i> Cart (<span class="cart-count">0</span>)</a>
+        <a href="Login.html"><i class="fas fa-user"></i> Login</a>
+
+      </div>
+    </div>
+    <div class="container px-4 py-3">
+      <div class="d-flex flex-wrap gap-3 flex-column flex-sm-row">
+        <button class="btn btn-primary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#promotions'"><a href="Index.html#promotions" style="color: white; text-decoration: none;">Promotions</a></button>
+        <button class="btn btn-secondary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#limited'"><a href="Index.html#limited" style="color: white; text-decoration: none;">Limited Time Offers</a></button>
+        <button class="btn btn-secondary flex-fill btn-dark text-white btn-custom" onclick="window.location.href='Home-Page.html#products'"><a href="Index.html#products" style="color: white; text-decoration: none;">Best Deals of the Season</a></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Catalog Sidebar -->
+  <aside class="catalog-sidebar">
+    <h3>Categories</h3>
+    <ul id="category-list"></ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Dashboard Overview -->
+    <section class="section" id="overview">
+      <h2>Dashboard Overview</h2>
+      <div class="row g-3 dashboard-overview">
+        <div class="col-md-4">
+          <div class="card overview-card">
+            <div class="card-body text-center">
+              <h3 class="card-title">Total Products</h3>
+              <p class="card-text" id="total-products">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card overview-card">
+            <div class="card-body text-center">
+              <h3 class="card-title">Total Orders</h3>
+              <p class="card-text" id="total-orders">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card overview-card">
+            <div class="card-body text-center">
+              <h3 class="card-title">Total Revenue</h3>
+              <p class="card-text" id="total-revenue">0 ₸</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Create Product -->
+    <section class="section" id="create-product">
+      <h2>Create New Product</h2>
+      <div class="controls">
+        <button class="btn btn-primary" onclick="openModal('create')"><i class="fas fa-plus me-2"></i>Add Product</button>
+      </div>
+    </section>
+
+    <!-- Seller's Products -->
+    <section class="section" id="your-products">
+      <h2>Your Products</h2>
+      <div class="controls">
+        <div class="form-floating">
+          <input type="text" id="product-search" class="form-control" placeholder="Search products">
+          <label for="product-search">Search products</label>
+        </div>
+        <div class="form-floating">
+          <select id="product-category-filter" class="form-select">
+            <option value="">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Home">Home</option>
+            <option value="Books">Books</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div id="product-list" class="product-list row g-3"></div>
+    </section>
+
+    <!-- Orders -->
+    <section class="section" id="orders">
+      <h2>Orders for Your Products</h2>
+      <div id="order-list" class="order-list row g-3"></div>
+    </section>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="seller-toast" class="toast align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body"></div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Product Creation/Editing -->
+    <div class="modal fade" id="product-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="modal-title">Create Product</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="modal-error" class="alert alert-danger d-none"></div>
+            <form id="product-form">
+              <div class="mb-3">
+                <label for="modal-product-name" class="form-label">Product Name</label>
+                <input type="text" class="form-control" id="modal-product-name" required>
+              </div>
+              <div class="mb-3">
+                <label for="modal-product-price" class="form-label">Price (₸)</label>
+                <input type="number" class="form-control" id="modal-product-price" min="0" step="1" required>
+              </div>
+              <div class="mb-3">
+                <label for="modal-product-stock" class="form-label">Stock</label>
+                <input type="number" class="form-control" id="modal-product-stock" min="0" step="1" required>
+              </div>
+              <div class="mb-3">
+                <label for="modal-product-category" class="form-label">Category</label>
+                <select class="form-select" id="modal-product-category" required>
+                  <option value="" disabled selected>Select a category</option>
+                  <option value="Electronics">Electronics</option>
+                  <option value="Clothing">Clothing</option>
+                  <option value="Home">Home</option>
+                  <option value="Books">Books</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="modal-product-image" class="form-label">Image URL</label>
+                <input type="url" class="form-control" id="modal-product-image" placeholder="https://example.com/image.jpg">
+              </div>
+              <div class="mb-3">
+                <label for="modal-product-description" class="form-label">Description</label>
+                <textarea class="form-control" id="modal-product-description" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100" id="modal-submit">Create Product</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <div class="footer-column">
+        <h4>Products</h4>
+        <a href="Product-Page.html">Product Details</a>
+        <a href="search-results.html">Search Results</a>
+      </div>
+      <div class="footer-column">
+        <h4>Cart</h4>
+        <a href="payment-confirmation.html">Payment Confirmation</a>
+        <a href="promo-code.html">Promo Code Application</a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <a href="Contact-Page.html">Contact Form</a>
+        <a href="faq.html">Frequently Asked Questions</a>
+      </div>
+      <div class="footer-column">
+        <h4>User Page</h4>
+        <a href="login.html">Login/Register</a>
+        <a href="UserPage.html">User Dashboard</a>
+        <a href="order-history.html">Order History</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Alem Market. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src = "js/Seller-Page.js"></script>
+</body>
+</html>
